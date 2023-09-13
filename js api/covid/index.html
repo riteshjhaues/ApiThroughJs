@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Statistics</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>COVID-19 Statistics</h1>
+        <div class="stats">
+            <div class="card">
+                <h2>Global Statistics</h2>
+                <p>Total Cases: <span id="total-cases"></span></p>
+                <p>Total Deaths: <span id="total-deaths"></span></p>
+                <p>Total Recovered: <span id="total-recovered"></span></p>
+            </div>
+            <div class="card">
+                <h2>Your Country Statistics</h2>
+                <input type="text" id="country-input" placeholder="Enter a country">
+                <button id="search-button">Search</button>
+                <p>Total Cases: <span id="country-cases"></span></p>
+                <p>Total Deaths: <span id="country-deaths"></span></p>
+                <p>Total Recovered: <span id="country-recovered"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="myjs.js"></script>
+</body>
+</html>
